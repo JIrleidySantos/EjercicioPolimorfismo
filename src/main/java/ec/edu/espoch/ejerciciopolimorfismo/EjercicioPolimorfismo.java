@@ -5,8 +5,8 @@
 package ec.edu.espoch.ejerciciopolimorfismo;
 
 import ec.edu.espoch.ejerciciopolimorfismo.clases.Avion;
-import ec.edu.espoch.ejerciciopolimorfismo.clases.Carro;
-import ec.edu.espoch.ejerciciopolimorfismo.clases.Moto;
+import ec.edu.espoch.ejerciciopolimorfismo.clases.Carros;
+import ec.edu.espoch.ejerciciopolimorfismo.clases.Motos;
 import ec.edu.espoch.ejerciciopolimorfismo.clases.Vehiculos;
 
 /**
@@ -16,8 +16,8 @@ import ec.edu.espoch.ejerciciopolimorfismo.clases.Vehiculos;
 public class EjercicioPolimorfismo {
 
     public static void main(String[] args) {
-        Vehiculos carro = new Carro();
-        Vehiculos moto = new Moto();
+        Vehiculos carro = new Carros();
+        Vehiculos moto = new Motos();
         Vehiculos avion = new Avion();
         
         System.out.println("Calculo de distancia para un carro: ");
